@@ -1,0 +1,156 @@
+body {
+    position: relative;
+    margin: auto;
+    background: #b7b4af;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.container-log {
+    width: 80%;
+    margin: auto;
+   
+}
+.head-content{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header{
+    height: 60px;
+    background-color: #12191f;
+    width: 100%;
+    padding:5px 0;
+}
+.brand{
+
+    font-size: 30PX;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 10px;
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+
+
+}
+nav ul li a {
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    min-width: 50px;
+    margin: 0 10px;
+    padding: 0  5px;
+    
+}
+nav ul li a:hover  {
+
+    color: #bebebe;
+ 
+}
+.login{
+    font-family: 'Lato', sans-serif;
+}
+
+
+.sign-up-modal {
+    color: #5e5e5f;
+    width: 60%;
+    border-radius: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin:auto;
+    margin-top: 150px;
+    background: rgb(216, 216, 216);
+}
+
+.sign-up-modal form {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sign-up-modal input::-webkit-input-placeholder {
+    color: #5e5e5f;
+    opacity: 1;
+}
+
+.sign-up-modal input:focus::-webkit-input-placeholder {
+    color: #5e5e5f;
+    opacity: .5;
+    transition: all 0.3s ease;
+}
+
+.sign-up-modal .input-container {
+    margin: 20px;
+}
+
+.sign-up-modal input[type="email"],
+.sign-up-modal input[type="text"],
+.sign-up-modal input[type="password"],
+.sign-up-modal input[type="submit"]:focus {
+    outline: 0;
+}
+
+.sign-up-modal input[type="email"],
+.sign-up-modal input[type="text"],
+.sign-up-modal input[type="password"] {
+    font-weight: 700;
+    font-size: 1.4em;
+    width: 350px;
+    padding: 10px;
+    border: none;
+    background: transparent;
+    border-bottom:2px solid rgb(158, 157, 157) ;
+    font-family: 'Lato', sans-serif;
+
+}
+
+
+
+
+ 
+.sing-up-par{
+text-align: center;
+font-size: 30px; 
+margin: 20px;
+
+}
+
+.sign-up-modal .btn-go{
+   width: 140px;
+   height: 50px;
+   color: #777777 ;
+   text-transform:capitalize;
+   background:transparent;
+   font-weight: 600;
+   border: none;
+   cursor: pointer;
+   font-size: 22px;
+   border-radius: 40px;
+   font-family: 'Lato', sans-serif;
+}
+   .sign-up-modal .btn-go:hover{
+  
+    color: #fff;
+    background-color:#777777 ;
+   
+
+    }
+
+   .sign-up-modal .Gender{
+       font-size: 25px;
+       margin: 20px;
+   }
+   .register a{
+    text-decoration: none;
+    color:#777777 ;
+   }
+
+   .register a:hover {
+    color:#151515 ;
+   }
